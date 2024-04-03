@@ -1,0 +1,179 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style header and nav */
+  header {
+    background-color: #fe7777;
+    color: #040406;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    color: #0b0707;
+    text-decoration: none;
+    font-family:serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 100px; /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  nav ul li img {
+    height: 40px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+    vertical-align: middle;
+    margin-left: 20px; /* Adjust as needed */
+  }
+  
+  
+  .content {
+    padding: 20px; /* Add padding as needed */
+    background-color:rgb(255, 255,204) ;/* Set background color */
+    display: flex; /* Use flexbox to align items */
+      align-items: flex-start; 
+      margin-top: 0px;
+  }
+  
+  .content pre {
+    color: #333; /* Set heading color */
+    
+    margin-top:50px;
+    font-Size:50px;
+    font-weight:bold;
+    font-family: serif;
+   
+  }
+  
+  .content p {
+    margin-bottom: 10px; /* Add bottom margin to paragraphs */
+    font-size: 16px; /* Set font size for paragraphs */
+    line-height: 1.5; /* Set line height for better readability */
+    margin-left:140px;
+  }
+  
+  .text-wrapper {
+    flex: 1; /* Allow text to take up remaining space */
+  }
+  
+  .text-wrapper pre {
+     /* Remove default margin */
+    margin-top:50px;
+    margin-left:80px;
+  }
+  
+  .text-wrapper p {
+    margin-top: 10px; /* Remove default top margin */
+    margin-left:160px;
+  }
+  .content img {
+    height:100%;
+    margin-left: 600px;
+    background-size: fixed;
+    margin-top: 0px;
+    margin-inline:10px;
+    z-index: 999;
+    width:50%;
+  }
+  .my-button {
+    background-color: #f08383; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:160px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 40px;
+    
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+  .item-a {
+    grid-area: side-left-up;
+  }
+  
+  .item-b {
+    grid-area: side-left-down;
+  }
+  
+  .item-c {
+    grid-area: sider-right;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: calc(40% - 45px) calc(40% - 15px);
+    grid-template-rows: calc(40% - 15px) 40%;
+    grid-template-areas:
+      "side-left-up sider-right"
+      "side-left-down sider-right";
+    grid-column-gap: 45px;
+    grid-row-gap: 15px;
+    margin-left:130px;
+    margin-top:80px;
+  }
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .footer{
+    background-color:rgb(255,255,204);
+    margin-top: 0px;
+    padding: 10px;
+    display:flex;
+    
+    align-items: center; /* Align items vertically */
+   
+  
+  }
+  .contain {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    background-color: #f08383;
+    padding:20px;
+    margin-right:200px;
+  }
+  
+  .paragraph {
+    margin-bottom: 10px; /* Add margin between paragraphs and click section */
+  }
+  
+  .click-section {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-right:100px;
+  }
+  .pre1{
+    font-size:30px;
+  }
+  .pre2{
+    font-size:50px;
+    font-weight:bold;
+    font-family:serif;
+  }
+  
+  
+  
+  
+  
+  
+  
